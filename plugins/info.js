@@ -1,28 +1,26 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   conn.reply(m.chat, `
-╠═〘 INFO BOT 〙 ═
-╠➥ Dibuat dengan bahasa javascript via NodeJs
-╠➥ Di Buat Tutorial Oleh: Drawl Nag
-╠➥ Script By: @Nurotomo 
-╠➥ Edit By: Zaky_ganss
-╠➥ Github: https://github.com/belajarbuatbot/sadbot
-╠➥ Instagram: @Bng_jeknation
-║
-╠═〘 Thanks To 〙 ═
-╠➥ Nurotomo
-╠➥ MfarelS
-║➥ Drawl Nag
-╠➥ ST4RZ
-║➥ Dan kawan yang lain :)
-║
-╠═〘 DONASI 〙 ═
-╠➥ 
-╠➥ Indosat: 0858-3207-9751
-╠➥ 
-║
-║>Request? Wa.me/6285832079751
-║
-╠═〘 SAD BOT 〙 ═
+*▌║⊱⊲ ⃟ ⃟ ⃟ ⛨*〘 INFO BOT 〙
+*▌║*
+*▌║✙* Dibuat dengan bahasa javascript via NodeJs
+*▌║✙* Rec: maslent
+*▌║✙* Script: @Nurotomo
+*▌║✙* Instagram: @maslent11
+*▌║✙* Editby: @Zaky_ganss
+*▌║*
+*▌║⊱⊲ ⃟ ⃟ ⃟ ⛨*〘 Thanks To 〙
+*▌║✙* Nurotomo
+*▌║✙* MfarelS
+*▌║✙* ST4RZ
+*▌║✙* MASLENT
+*▌║✙* Dan kawan yang lain :)
+*▌║*
+*▌║⊱⊲ ⃟ ⃟ ⃟ ⛨*〘 DONASI 〙 ═
+*▌║✙* Indosat: 0858-3207-9751
+*▌║⊱⊲ ⃟ ⃟ ⃟ ⛨*
+*▌║*>Request? Wa.me/6285832079751
+*▌║*
+*▌║⊱⊲ ⃟ ⃟ ⃟ ⛨*〘 SADBOY BOT 〙 ═
 `.trim(), m)
 }
 handler.help = ['info']

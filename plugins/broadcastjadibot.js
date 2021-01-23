@@ -5,7 +5,7 @@ let handler = async (m, { conn, text }) => {
       contextInfo: m.msg.contextInfo
     } : {})
     conn.reply(m.chat, `_Berhasil mengirim broadcast ke ${users.length} nomor yang jadi bot_`, m)
-  } else conn.reply(m.chat, 'Fitur ini hanya untuk host bot',  m)
+  } else conn.reply(m.chat, 'Fitur ini hanya untuk host bot sadboy',  m)
 }
 handler.help = ['broadcastjadibot','bcbot'].map(v => v + ' <teks>')
 handler.tags = ['host']

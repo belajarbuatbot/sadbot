@@ -1,3 +1,9 @@
+//LU MAU NGAPAIN KE SINI GAADA APA APA JIR
+//JANGAN RUBAH RUBAH NTAR EROR NGELUH
+//KLAU GA BISA MENDING DIEM!! OEK OEK OEK
+//CANDA MHEUEHE JGN BAPEL
+//SUBSCRIBE MASLENT YT
+//THANX TO NURUTOMO
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   try {
     let exp = global.DATABASE.data.users[m.sender].exp
@@ -36,9 +42,9 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       'jadibot': 'Jadi Bot',
       'owner': 'Owner',
       'host': 'Host',
-      'kosong': 'Kosong',
+      'advanced': 'Advanced',
       'info': 'Info',
-      '': 'Habis Udah itu aja',
+      '': 'Udah itu aja',
     }
     for (let plugin of Object.values(global.plugins))
       if (plugin && 'tags' in plugin)
@@ -60,10 +66,10 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
           if (menu.help) groups[tag].push(menu)
     }
     conn.menu = conn.menu ? conn.menu : {}
-    let before = conn.menu.before || `${conn.getName(conn.user.jid)} • Bot\n\nHai, %name!\n Total: *%exp XP*\n\n*Limit Anda:* %limit\n*Tanggal:* *%week, %date*\n Waktu: *%time*\n_Uptime: %uptime_\n*Banyak User:* %totalreg\n\nGithub:\nhttps://github.com/Arya274/Arya-DN\nScript ©Nurotomo\n\n 🔰JOIN GRUP🔰\nhttps://chat.whatsapp.com/GFYq7Dtug968lgsky8jayL\n`
-    let header = conn.menu.header || '╭════•›「 %category 」'
-    let body   = conn.menu.body   || '┠❥ %cmd%islimit'
-    let footer = conn.menu.footer || '╰═══════════════\n'
+    let before = conn.menu.before || `${conn.getName(conn.user.jid)} • Bot\n\nHalo user sadboy bot, %name!\n Total: *%exp XP*\n\n*Limit Mu:* %limit\n*Tanggal:* *%week, %date*\n Waktu: *%time*\n_Uptime: %uptime_\n*Banyak User Bot Sadboy:* %totalreg\n\nYuoutube:\n 🤗JOIN GRUP SADBOYBOT🤗\nhttps://chat.whatsapp.com/E6pfYHtUw621z0RYZk7lix\n`
+    let header = conn.menu.header || '*╭═┅═⊷❍•›「 %category 」'
+    let body   = conn.menu.body   || '✜► %cmd%islimit'
+    let footer = conn.menu.footer || '╰═════════════⊷❍\n'
     let after  = conn.menu.after  || conn.user.jid == global.conn.user.jid ? '' : `\nPowered by https://wa.me/${global.conn.user.jid.split`@`[0]}`
     let _text  = before + '\n'
     for (let tag in groups) {

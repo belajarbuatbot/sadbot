@@ -2,10 +2,10 @@ let handler = async (m, { conn, text }) => {
   conn.hartatahta = conn.hartatahta ? conn.hartatahta : {}
   if (m.chat in conn.hartatahta) throw 'Masih ada yang sedang membuat\nTeks Harta Tahta\di chat ini... tunggu sampai selesai'
   else conn.hartatahta[m.chat] = true
-  m.reply('_WAIT!! sabar ngab masih di proses!!..._\n*tunggu sekitar 1 menit*\n orang sabar di sayang?janda')
+  m.reply('_WAIT sedang diproses..._\n*Mohon tunggu sekitar 1 menit*\n Orang sabar di sayang janda')
   try {
     let img = await ht(text ? text : ':v')
-    conn.sendFile(m.chat, img, 'Harta Tahta.png', '*nih tod harta nya*\nWkwkwk', m)
+    conn.sendFile(m.chat, img, 'Harta Tahta.png', '*NIH NGAB*\n', m)
   } finally {
     delete conn.hartatahta[m.chat]
   }
