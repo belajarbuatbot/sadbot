@@ -1,4 +1,4 @@
-# wabot-aq
+# sadbot
 Simple WhatsApp Bot
 
 ### FOR TERMUX USER
@@ -8,8 +8,8 @@ Simple WhatsApp Bot
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
-> git clone https://github.com/Arya274/Arya-DN
-> cd Arya-DN
+> git clone https://github.com/belajarbuatbot/sadbot
+> cd sadbot
 > npm install
 ```
 ###### Run
@@ -25,14 +25,16 @@ Simple WhatsApp Bot
 * Download And Install FFMPEG [`Click Here`](https://ffmpeg.org/download.html) (don't forget to path) 
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php) (if nulis want work,  checklist columns 1,2,3,5,6) 
 ```bash
-> git clone https://github.com/Arya274/Arya-DN
-> cd Arya-DN
+> git clone https://github.com/belajarbuatbot/sadbot
+> cd sadbot
 > npm install
 ```
 ###### Run
 ```bash
 > node index.js
 ```
+# edit by zaky ganss
+>instagram: @Bng_sadnation
 
 # Sosmed And Creator
 ```thanks
